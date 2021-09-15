@@ -12,6 +12,8 @@ var pairsByIndexRaw = [
     [2, 1], null, [1], false, "whoops"
 ];
 
+//var pairsByIndex = pairsByIndexRaw.filter(indexes => indexes !== null && indexes.length === 2 && typeof indexes === "object"
+
 var pairsByIndex = pairsByIndexRaw.filter(
     indexes => indexes !== null && indexes.length === 2 && typeof indexes === "object"
 );

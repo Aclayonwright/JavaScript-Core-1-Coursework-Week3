@@ -14,7 +14,7 @@ var numbersDoubled = numbers.map(double);
 The `map()` method runs the function we provided (`double`) on each item in the array and uses the return values to create a new array. In the example `numbersDoubled` is a new array containing `[2, 4, 6]`.
 
 ### Callback functions
-
+ 
 A function that we provide to a method is commonly called a _callback_ function. The term highlights that although we _provide_ the `double` function, the `.map()` method _calls_ it. (Notice how we never write `double()` to call the function).
 
 We'll see callback functions used a lot more in the coming weeks. 
