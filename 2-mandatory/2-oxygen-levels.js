@@ -10,9 +10,17 @@
 
     Some string methods that might help you here are .replace() and .substring(). 
 */
-
 function findSafeOxygenLevel(arr) {
-    let findLevel = findLevel.
+    let safe = arr.find((item) => {
+        if (item.includes("%")) {
+            let item1 = item.substring(0, item.length - 1);
+            item1 = parseFloat(item);
+            return (item1 < 23.5 && item1 > 19.5)
+        }
+
+    })
+    return safe;
+
 }
 
 /* ======= TESTS - DO NOT MODIFY ===== */
