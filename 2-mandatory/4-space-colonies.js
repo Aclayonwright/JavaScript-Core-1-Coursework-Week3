@@ -15,32 +15,32 @@
   
 */
 
-function getSettlers() {}
-
+function getSettlers(families) {}
+letfamiliees
 /* ======= TESTS - DO NOT MODIFY ===== */
 
 test("getSettlers function works", () => {
-  const voyagers = [
-    "Adam family",
-    "Potter family",
-    "Eric",
-    "Aldous",
-    "Button family",
-    "Jude",
-    "Carmichael",
-    "Bunny",
-    "Asimov",
-    "Oscar family",
-    "Avery family",
-    "Archer family",
-    "Just A. family",
-    "A Great family",
-  ];
+    const voyagers = [
+        "Adam family",
+        "Potter family",
+        "Eric",
+        "Aldous",
+        "Button family",
+        "Jude",
+        "Carmichael",
+        "Bunny",
+        "Asimov",
+        "Oscar family",
+        "Avery family",
+        "Archer family",
+        "Just A. family",
+        "A Great family",
+    ];
 
-  expect(getSettlers(voyagers)).toEqual([
-    "Adam family",
-    "Avery family",
-    "Archer family",
-    "A Great family",
-  ]);
+    expect(getSettlers(voyagers)).toEqual([
+        "Adam family",
+        "Avery family",
+        "Archer family",
+        "A Great family",
+    ]);
 });

@@ -8,10 +8,10 @@
 */
 
 function capitalise(str) {
-    let upperCaseLetters = str.split('')
-    upperCaseLetters[0] = upperCaseLetters[0].toUpperCase()
-    let capitalise = upperCaseLetters.join("")
-    console.log(capitalise)
+    let upperCaseLetters = str.split('');
+    upperCaseLetters[0] = upperCaseLetters[0].toUpperCase();
+    let capitalise = upperCaseLetters.join("");
+    console.log(capitalise);
 }
 /* 
   DO NOT EDIT BELOW THIS LINE

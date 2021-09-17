@@ -8,7 +8,7 @@
 
 let statement = "I do not like programming";
 
-let result1 = statement.substring(0, 2);
+let result1 = statement.substring(0, 5);
 let result2 = statement.substring(statement.length, 9)
 result = result1 + result2;
 

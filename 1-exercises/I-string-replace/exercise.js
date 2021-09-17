@@ -13,15 +13,15 @@
 let story =
     "I like dogs. One day I went to the park and I saw 10 dogs. It was a great day.";
 
-let result = story.replace("dogs", "cats");
-("day", "night");
-("10", "100000");
-("dogs", "cats");
-("great", "brilliant");
-("day", "night");
-return story;
-
-/* EXPECTED OUTPUT */
+let result = story.replace("dogs", "cats")
+    .replace("day", "night")
+    .replace("10", "100000")
+    .replace("dogs", "cats")
+    .replace("great", "brilliant")
+    .replace("day", "night");
+//return result;
+console.log(result)
+    /* EXPECTED OUTPUT */
 
 const util = require("util");
 
